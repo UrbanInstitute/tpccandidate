@@ -419,6 +419,29 @@ margin-right:10px;
     
 }
 
+    
+    
+ /*styles for candidates that dropped out of the race*/
+    .goneimg{
+     opacity: .5;  
+      
+    }
+    
+.gonetext{
+    
+ color:#999;   
+}
+
+.gonetext a{
+    
+ color:#70a1cc;  
+}
+
+.candidateName p{
+ font-size:15px;
+    font-weight: 400;
+    
+}
 
 @media (min-width: 601px) {
 
@@ -720,10 +743,7 @@ font-size: 25px;
 }
    
 
-    
-    
-    
-    
+
     
 /*DEMS ON MOBILE*/	
 
