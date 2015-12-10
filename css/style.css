@@ -610,6 +610,42 @@ label.css-label4 {
 	user-select: none;
 			}
 			
+/*all ended campaign checkbox style*/
+input[type=checkbox].css-checkbox5 {
+position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+}
+
+input[type=checkbox].css-checkbox5 + label.css-label5 {
+	padding-left:23px;
+	height:16px; 
+	display:inline-block;
+	line-height:16px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:15px;
+    font-weight: 800;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox5:checked + label.css-label5 {
+	background-position: 0 -16px;
+}
+						
+input[type=checkbox].css-checkbox5:indeterminate + label.css-label5 {
+	background-position: 0 0px;
+}
+						
+label.css-label5 {
+	background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_b98235f8e3057a789fc5a1a9f8e44d20.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+			}
+			
 @media (max-width: 1200px) {
 	
 	input[type=checkbox].css-checkbox4 + label.css-label4 {
@@ -617,6 +653,10 @@ label.css-label4 {
 	}
 
 	input[type=checkbox].css-checkbox3 + label.css-label3 {
+		font-size:13px; 
+	}	
+	
+	input[type=checkbox].css-checkbox3 + label.css-label5 {
 		font-size:13px; 
 	}							
 							
@@ -642,6 +682,20 @@ label.css-label4 {
 
 	input[type=checkbox].css-checkbox3 + label.css-label3 {
 		font-size:12px; 
+	}
+	
+	input[type=checkbox].css-checkbox5 + label.css-label5 {
+		font-size:12px; 
+		
+	}
+							
+}
+
+@media (max-width: 1213px) {
+	
+	input[type=checkbox].css-checkbox5 + label.css-label5 {
+		
+		padding-bottom: 30px;
 	}
 							
 }
@@ -730,6 +784,13 @@ font-size: 25px;
    
           
 	}
+	
+	input[type=checkbox].css-checkbox5 + label.css-label5 {
+		font-size:14px; 
+   
+          
+	}
+		
 							
 .filter-side{
     display: none;
